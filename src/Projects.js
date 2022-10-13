@@ -1,11 +1,13 @@
 import React from "react";
 import "./App";
+import "./Projects.css"
 
 export default function Projects() {
   return (
     <div className="Projects">
       <div className="row justify-content-between">
         <h1>Check out my projects</h1>
+        
         <div className="col-4">
           <img src="weather.png" alt="" />
           <a
@@ -23,8 +25,8 @@ export default function Projects() {
           >
             Dictionary App
           </a>
+          </div>
         </div>
-      </div>
     </div>
   );
 }
