@@ -12,7 +12,7 @@ export default function Projects() {
           <img src="weather.png" alt="" />
           <a
             href="https://endearing-churros-ff3e12.netlify.app/"
-            class="link-secondary"
+            className="link-secondary"
           >
             Weather App
           </a>
@@ -21,7 +21,7 @@ export default function Projects() {
           <img src="dictionary.png" alt="" />
           <a
             href="https://taupe-stardust-dd3019.netlify.app/"
-            class="link-secondary"
+            className="link-secondary"
           >
             Dictionary App
           </a>
