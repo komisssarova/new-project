@@ -1,19 +1,13 @@
 import React from "react";
-import "./App";
-import "./AboutMe.css";
+import "./about.css";
 
-
-export default function AboutMe() {
+export default function About() {
   return (
-    <div className="AboutMe">
-      
+    <div className="About">
       <div className="row justify-content-between">
-      <div className="hello">
-      <h1>Hi 👋</h1>
-      <h2>My name is Kateryna Komisarova</h2>
-      </div>
+        
         <div className="col-4">
-          <img src="cvpicture.jpg" alt="" />
+          
         </div>
         <div className="col-4">
           <p className="text">
@@ -23,7 +17,6 @@ export default function AboutMe() {
             In search of an Entry-level Front-End Developer position with the
             opportunity to work and grow within an amazing team.
           </p>
-           
         </div>
       </div>
     </div>

@@ -1,13 +1,13 @@
 import React from "react";
 import "./App";
-import "./Projects.css"
+import "./portfolio.css";
 
-export default function Projects() {
+export default function Portfolio() {
   return (
-    <div className="Projects">
+    <div className="Portfolio">
       <div className="row justify-content-between">
         <h3>Check out my projects</h3>
-        
+
         <div className="col-4">
           <img src="weather.png" alt="" />
           <p>Weather App built with React</p>
@@ -20,17 +20,15 @@ export default function Projects() {
         </div>
         <div className="col-4">
           <img src="dictionary.png" alt="" />
-          <p>
-            Dictionary App built with React
-          </p>
+          <p>Dictionary App built with React</p>
           <a
             href="https://taupe-stardust-dd3019.netlify.app/"
             className="link-secondary"
           >
             Learn more
           </a>
-          </div>
         </div>
+      </div>
     </div>
   );
 }
