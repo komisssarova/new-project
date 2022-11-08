@@ -1,5 +1,6 @@
 import React from "react";
 import CTA from "./CTA";
+import HeaderSocials from "./HeaderSocials";
 import "./header.css";
 import "./index.css";
 
@@ -11,6 +12,7 @@ export default function Header() {
           <h1>Kateryna Komisarova</h1>
           <h5 className="text-light">Front-End Developer</h5>
           <CTA />
+          <HeaderSocials />
           <div className="me">
             <img src="cvpicture.jpg" alt="Kateryna portrait" />
           </div>
