@@ -3,12 +3,9 @@ import "./about.css";
 
 export default function About() {
   return (
-    <div className="About">
+    <section id="about">
       <div className="row justify-content-between">
-        
-        <div className="col-4">
-          
-        </div>
+        <div className="col-4"></div>
         <div className="col-4">
           <p className="text">
             A determined Junior Front-End Developer with a passion for clean
@@ -19,6 +16,6 @@ export default function About() {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

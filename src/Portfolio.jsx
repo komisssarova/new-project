@@ -4,7 +4,7 @@ import "./portfolio.css";
 
 export default function Portfolio() {
   return (
-    <div className="Portfolio">
+    <section id="portfolio">
       <div className="row justify-content-between">
         <h3>Check out my projects</h3>
 
@@ -29,6 +29,6 @@ export default function Portfolio() {
           </a>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

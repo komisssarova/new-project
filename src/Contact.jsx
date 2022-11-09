@@ -4,9 +4,9 @@ import "./contact.css";
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <section id="contact">
       <h5>Let's get in touch!</h5>
       <p>komisssarova.uk@gmail.com</p>
-    </div>
+    </section>
   );
 }
