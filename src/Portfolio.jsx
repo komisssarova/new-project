@@ -3,5 +3,5 @@ import "./App";
 import "./portfolio.css";
 
 export default function Portfolio() {
-  return <section id="portfolio"></section>;
+  return <section id="portfolio">Portfolio</section>;
 }
