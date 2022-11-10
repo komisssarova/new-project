@@ -7,7 +7,7 @@ import { RiServiceLine } from "react-icons/ri";
 import { MdContactMail } from "react-icons/md";
 import { useState } from "react";
 
-export default function Nav() {
+const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
@@ -48,4 +48,6 @@ export default function Nav() {
       </a>
     </nav>
   );
-}
+};
+
+export default Nav;

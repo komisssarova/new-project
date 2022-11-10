@@ -9,7 +9,7 @@ import Services from "./Services";
 import Contact from "./Contact";
 import Footer from "./Footer";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <div class="row justify-content-center">

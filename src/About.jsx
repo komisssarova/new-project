@@ -2,7 +2,7 @@ import React from "react";
 import "./about.css";
 import { VscFolderLibrary } from "react-icons/vsc";
 
-export default function About() {
+const About = () => {
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -16,6 +16,16 @@ export default function About() {
 
         <div className="about-contant">
           <div className="about-cards">
+            <article className="about-card">
+              <VscFolderLibrary className="about-icon" />
+              <h5>Projects</h5>
+              <small>2 Completed</small>
+            </article>
+            <article className="about-card">
+              <VscFolderLibrary className="about-icon" />
+              <h5>Projects</h5>
+              <small>2 Completed</small>
+            </article>
             <article className="about-card">
               <VscFolderLibrary className="about-icon" />
               <h5>Projects</h5>
@@ -37,4 +47,6 @@ export default function About() {
       </div>
     </section>
   );
-}
+};
+
+export default About;
