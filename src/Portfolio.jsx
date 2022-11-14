@@ -24,7 +24,7 @@ const Portfolio = () => {
             <a
               href="https://endearing-churros-ff3e12.netlify.app/"
               className="btn btn-primary"
-              target="blank"
+              target="_blank"
             >
               Netlify
             </a>
@@ -46,7 +46,7 @@ const Portfolio = () => {
             <a
               href="https://taupe-stardust-dd3019.netlify.app/"
               className="btn btn-primary"
-              target="blank"
+              target="_blank"
             >
               Netlify
             </a>
@@ -68,7 +68,7 @@ const Portfolio = () => {
             <a
               href="https://endearing-churros-ff3e12.netlify.app/"
               className="btn btn-primary"
-              target="blank"
+              target="_blank"
             >
               Netlify
             </a>
