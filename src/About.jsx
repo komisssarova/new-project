@@ -33,7 +33,7 @@ const About = () => {
               <small>2 Completed</small>
             </article>
           </div>
-
+          <div className="about-me-text">
           <p>
             A determined Junior Front-End Developer with a passion for clean
             code and creative solutions. Proficient in React, ES6+, HTML/CSS
@@ -41,6 +41,7 @@ const About = () => {
             In search of an Entry-level Front-End Developer position with the
             opportunity to work and grow within an amazing team.
           </p>
+          </div>
           <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
