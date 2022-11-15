@@ -22,9 +22,10 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Let's get in touch!</h5>
-      <h2>Contact Me</h2>
-
+      <div>
+        <div className="words">
+      <h2>Let's get in touch!</h2>
+      </div>
       <div className="container contact-container">
         <div className="contact-options">
           <article className="contact-option">
@@ -35,7 +36,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              
+              komisssarova.uk@gmail.com
             </a>
           </article>
           <article className="contact-option">
@@ -81,6 +82,7 @@ const Contact = () => {
           </button>
         
         </form>
+      </div>
       </div>
     </section>
   );

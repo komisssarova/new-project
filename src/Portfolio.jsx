@@ -24,7 +24,7 @@ const data = [
     title: "Weather App",
     github: "https://github.com/komisssarova/weather-app-react",
     netlify: "https://endearing-churros-ff3e12.netlify.app/",
-  },
+  }
 ];
 
 const Portfolio = () => {

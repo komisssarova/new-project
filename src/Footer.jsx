@@ -7,6 +7,7 @@ import { SiNetlify } from "react-icons/si";
 const Footer = () => {
   return (
     <footer>
+      <div>
       <div className="permalinks">
         <a href="#app">Home</a>
 
@@ -28,6 +29,7 @@ const Footer = () => {
         <a href="https://astonishing-heliotrope-50618a.netlify.app/">
           <SiNetlify />
         </a>
+      </div>
       </div>
     </footer>
   );
