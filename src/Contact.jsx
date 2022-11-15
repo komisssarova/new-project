@@ -15,7 +15,7 @@ const Contact = () => {
           <article className="contact-option">
             <MdOutlineEmail className="contact-option-icon" />
             <h4>Email</h4>
-            <a href="mailto:komisssarova.uk@gmail.com" target="_blank">
+            <a href="mailto:komisssarova.uk@gmail.com" target="_blank" rel="noopener noreferrer">
               Send a message
             </a>
           </article>
@@ -25,6 +25,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/kateryna-komisarova/"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Get in touch
             </a>
@@ -32,7 +33,7 @@ const Contact = () => {
           <article className="contact-option">
             <AiOutlineInstagram className="contact-option-icon" />
             <h4>Instagram</h4>
-            <a href="https://www.instagram.com/komisssarova/" target="_blank">
+            <a href="https://www.instagram.com/komisssarova/" target="_blank" rel="noopener noreferrer">
               Get in touch
             </a>
           </article>
