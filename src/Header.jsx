@@ -10,11 +10,11 @@ export default function Header() {
       <div className="container header-container">
         <h5>Hello I'm</h5>
         <h1>Kateryna Komisarova</h1>
-        <h5 className="text-light">Front-End Developer</h5>
+        <h5 className="text-light">Junior Front-End Developer</h5>
         <CTA />
         <HeaderSocials />
         <div className="me">
-          <img src="cvpicture.jpg" alt="Kateryna portrait" />
+          <img src="mecv.jpg" alt="Kateryna portrait" />
         </div>
         <a href="#contact" className="scroll-down">
           Scroll down
