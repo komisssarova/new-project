@@ -1,6 +1,4 @@
 import React from "react";
-import "./App.css";
-import "./index.css";
 import Header from "./Header";
 import Nav from "./Nav";
 import About from "./About";

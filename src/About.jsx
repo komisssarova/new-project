@@ -6,7 +6,7 @@ const About = () => {
   return (
     <section id="about">
       <div className="words-me">
-      <h2>About Me</h2>
+        <h2>About Me</h2>
       </div>
       <div className="container about-container">
         <div className="about-me">
@@ -34,13 +34,13 @@ const About = () => {
             </article>
           </div>
           <div className="about-me-text">
-          <p>
-            A determined Junior Front-End Developer with a passion for clean
-            code and creative solutions. Proficient in React, ES6+, HTML/CSS
-            with a solid knowledge base of utilising Bootstrap and Visual Code.
-            In search of an Entry-level Front-End Developer position with the
-            opportunity to work and grow within an amazing team.
-          </p>
+            <p>
+              A determined Junior Front-End Developer with a passion for clean
+              code and creative solutions. Proficient in React, ES6+, HTML/CSS
+              with a solid knowledge base of utilising Bootstrap and Visual
+              Code. In search of an Entry-level Front-End Developer position
+              with the opportunity to work and grow within an amazing team.
+            </p>
           </div>
           <a href="#contact" className="btn btn-primary">
             Let's Talk

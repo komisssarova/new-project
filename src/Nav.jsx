@@ -9,12 +9,13 @@ import { useState } from "react";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+
   return (
     <nav>
       <a
-        href="#app"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+        href="#home"
+        onClick={() => setActiveNav("#home")}
+        className={activeNav === "#home" ? "active" : ""}
       >
         <AiOutlineHome />
       </a>

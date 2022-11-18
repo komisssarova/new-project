@@ -2,11 +2,10 @@ import React from "react";
 import CTA from "./CTA";
 import HeaderSocials from "./HeaderSocials";
 import "./header.css";
-import "./index.css";
 
-export default function Header() {
+const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header-container">
         <h5>Hello I'm</h5>
         <h1>Kateryna Komisarova</h1>
@@ -22,4 +21,5 @@ export default function Header() {
       </div>
     </header>
   );
-}
+};
+export default Header;

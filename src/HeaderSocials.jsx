@@ -3,7 +3,7 @@ import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
 import { SiNetlify } from "react-icons/si";
 
-export default function HeaderSocials() {
+const HeaderSocials = () => {
   return (
     <div className="header-socials">
       <a
@@ -29,4 +29,6 @@ export default function HeaderSocials() {
       </a>
     </div>
   );
-}
+};
+
+export default HeaderSocials
