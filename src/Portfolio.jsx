@@ -2,14 +2,15 @@ import React from "react";
 import "./portfolio.css";
 import IMG1 from "./assets/weather.png";
 import IMG2 from "./assets/dictionary.png";
+import IMG3 from "./assets/movieplatform.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
     title: "Weather App",
-    github: "https://github.com/komisssarova/weather-app-react",
-    netlify: "https://endearing-churros-ff3e12.netlify.app/",
+    github: "https://github.com/komisssarova/weather-app-react-2022",
+    netlify: "https://clever-marshmallow-432854.netlify.app/",
   },
   {
     id: 2,
@@ -20,11 +21,11 @@ const data = [
   },
   {
     id: 3,
-    image: IMG1,
-    title: "Weather App",
-    github: "https://github.com/komisssarova/weather-app-react",
-    netlify: "https://endearing-churros-ff3e12.netlify.app/",
-  }
+    image: IMG3,
+    title: "Movie App",
+    github: "https://github.com/komisssarova/movieplatform",
+    netlify: "https://bright-kelpie-7e3631.netlify.app/",
+  },
 ];
 
 const Portfolio = () => {

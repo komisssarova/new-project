@@ -42,15 +42,24 @@ header {
 .me {
   
   width: 22rem;
-  height: 50rem;
+  
   position: absolute;
-  left: calc(50% - 11rem);
+  
   margin-bottom: 1.5rem;
   border-radius: 5px;
   overflow: hidden;
   padding: 1.5rem;
   
 }
+.kate {
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  display: inline-block;
+  width: 250px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
 /* ================= SCROLL DOWN ============== */
 .scroll-down {
   position: absolute;
